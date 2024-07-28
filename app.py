@@ -14,9 +14,9 @@ import asyncio
 from functools import partial
 import traceback
 import time
-HUGGINGFACE_API_TOKEN=os.getenv('HUGGINGFACEHUB_API_TOKEN')
-GROQ_API_KEY= os.getenv('GROQ_API_KEY')
-OPENAI_API_KEY=os.getenv('OPENAI_API_KEY')
+HUGGINGFACE_API_TOKEN= 'API Key Here'
+GROQ_API_KEY= 'API Key Here'
+OPENAI_API_KEY= 'API Key Here'
 @st.cache_resource
 def load_data_and_retriever():
     data = datasets.load_dataset("adamo1139/basic_economics_questions_ts_test_4")
