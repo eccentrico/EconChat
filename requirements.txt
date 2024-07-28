@@ -3,4 +3,5 @@ langchain
 langchain-groq
 langchain-chroma
 datasets
-OpenAItiktoken
+OpenAI
+tiktoken
